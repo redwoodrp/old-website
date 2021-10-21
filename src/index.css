@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+    font-family: Poppins, Arial, sans-serif;
+}
+
+@layer components {
+    .ln {
+        @apply bg-gray-400 w-12 h-1.5;
+    }
+}

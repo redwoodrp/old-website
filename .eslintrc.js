@@ -14,5 +14,15 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    quotes: ['error', 'single'],
+    'space-before-function-paren': ['error', 'always'],
+    'max-len': ['error', 250],
+    'class-methods-use-this': 'off',
+    'lines-between-class-members': 'off',
+    'no-plusplus': 'off',
+    'max-classes-per-file': 'off',
+    'no-shadow': 'off',
+    'import/extensions': 'off',
+    '@typescript-eslint/no-shadow': 'error',
   },
 };
